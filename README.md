@@ -8,16 +8,6 @@ Originally inspired by an OPIT Summer Bootcamp exercise, the project was redesig
 
 🌐 http://opit-bootcamp.s3-website.eu-north-1.amazonaws.com
 
-## Preview
-
-### Landing Page
-
-![Landing Page](docs/screenshots/home.png)
-
-### AI Image Classification
-
-![Classification Results](docs/screenshots/classification.png)
-
 ## Features
 
 - Browser-based image classification using MobileNet V2
