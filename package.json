@@ -1,0 +1,39 @@
+{
+  "name": "cloudvision-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A privacy-first browser image classifier powered by TensorFlow.js and MobileNet.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "tensorflow-js",
+    "mobilenet",
+    "image-classification",
+    "computer-vision",
+    "vite",
+    "aws-s3"
+  ],
+  "author": "Edda Shkurti",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "2.1.1",
+    "@tensorflow/tfjs": "4.22.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.7.0",
+    "globals": "17.7.0",
+    "vite": "8.1.4",
+    "vitest": "4.1.10"
+  }
+}
