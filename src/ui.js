@@ -90,6 +90,7 @@ export function setAnalyzing(elements, analyzing) {
 }
 
 export function renderPredictions(elements, predictions, elapsedMilliseconds) {
+  elements.analyzingOverlay.hidden = true;
   elements.predictionList.replaceChildren();
 
   const topProbability = predictions[0]?.probability ?? 0;
